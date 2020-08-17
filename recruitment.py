@@ -1,20 +1,20 @@
 def main():
-	skills = ["Python","C#","Javascript","Juggling","Running","Eating"]
+	skills = ["Python", "C++", "JavaScript", "Meeting", "Leeting", "Eating"]
 	cv = {
 	"name" : "",
 	"age" : 0,
 	"experience" : 0,
 	"skills" : []
 	}
+	for x in skills:
+		print("%s-"%(skills.index(x)+1),x)
 	print("Welcome to the special recruitment program, please answer the following questions:")
-	name1 = input("What's your mame? ")
+	name1 = input("What's your name? ")
 	cv["name"] = name1
 	age1 = input("How old are you? ")
 	cv["age"] = age1
 	exp = input("How many years experience do you have? ")
 	cv["experience"] = exp
-	for x in skills:
-		print("%s-"%(skills.index(x)+1),x)
 	skl1=  input("Choose a skill from above by entering its number: ")
 	skl1 = skills[int(skl1)-1]
 	cv["skills"].append(skl1)
