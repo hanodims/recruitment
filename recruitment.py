@@ -1,5 +1,5 @@
 def main():
-	skills = ["Python","C++","Javascript","Juggling","Running","Eating"]
+	skills = ["Python","C#","Javascript","Juggling","Running","Eating"]
 	cv = {
 	"name" : "",
 	"age" : 0,
